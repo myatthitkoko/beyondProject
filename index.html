@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Kura Menu</title>
+    <meta name="description" content="A Catalog of Menu Items in Kura Sushi" />
+    <link rel="icon" type="image/png" href="https://em-content.zobj.net/thumbs/240/twitter/348/fish-cake-with-swirl_1f365.png">
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="scripts.js"></script>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <input type="checkbox" id="toggle" name="toggle" value="toggle">
+      <label for="toggle">☰</label>
+      <h3>Search & Sort</h3>
+      <nav>
+        <div class="navibar">
+          <div class="search">
+            <h1>Looking for an item?</h1>
+            <input type="text" id="search" name="search" spellcheck="true" placeholder="Search by name, price, or ingredients here">
+            <button type="submit" onclick="searchCard()">GO</button>
+          </div>
+          <div class="sorting">
+            <span>
+              <input type="checkbox" id="sortAZ" name="checkboxSort" value="sortAZ">
+              <label for="sortAZ">Sort A - Z</label>
+            </span>
+            <span>
+              <input type="checkbox" id="sortZA" name="checkboxSort" value="sortZA">
+              <label for="sortZA">Sort Z - A</label>
+            </span>
+            <span>
+              <input type="checkbox" id="sortHighPrice" name="checkboxSort" value="sortHighPrice">
+              <label for="sortHighPrice">Sort by Highest Price</label>
+            </span>
+            <span>
+              <input type="checkbox" id="sortLowPrice" name="checkboxSort" value="sortLowPrice">
+              <label for="sortLowPrice">Sort by Lowest Price</label>
+            </span>
+            <span>
+              <input type="checkbox" id="dairy" name="allergen" value="allergen">
+              <label for="dairy">Exclude Dairy</label>
+            </span>
+            <span>
+              <input type="checkbox" id="shellfish" name="allergen" value="allergen">
+              <label for="shellfish">Exclude Shellfish</label>
+            </span>
+            <h4 id="notice"></h4>
+          </div>
+        </div>
+      </nav>
+      <h1 class="title">Kura Sushi Menu</h1>
+    </header>
+    <div class="main-content">
+      <section id="belt">
+        <div id="card-container"></div>
+        <div class="card" style="display: none">
+          <div class="card-content">
+            <img src="" alt="Menu Poster" />
+            <h2></h2>
+          </div>
+        </div>
+      </section>
+      <div class="banner">
+        <section id="menu-selection">
+            <input type="radio" id="all" name="menu" value="all" checked>
+            <label for="all">All</label>
+            <input type="radio" id="nigiri" name="menu" value="nigiri">
+            <label for="nigiri">Nigiri</label>
+            <input type="radio" id="rolls" name="menu" value="rolls">
+            <label for="rolls">Rolls</label>
+            <input type="radio" id="sides" name="menu" value="sides">
+            <label for="sides">Sides</label>
+            <input type="radio" id="ramen" name="menu" value="ramen">
+            <label for="ramen">Ramen</label>
+            <input type="radio" id="desserts" name="menu" value="desserts">
+            <label for="desserts">Desserts</label>
+        </section>
+      </div>
+      <section id="menu-section">
+        <h4 id="message"></h4>
+        <div id="menu-container"></div>
+        <div class="menu glass" style="display: none">
+          <div class="menu-content">
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+            <h4>Main Ingredients</h4>
+            <ul>
+              <li>Bullet List</li>
+              <li>Bullet List</li>
+              <li>Bullet List</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="footer">
+      <div class="overlay circle">
+        <button onclick="quoteAlert()">View Disclaimer</button>
+        <button onclick="backToTop()">Back To Top</button>
+      </div>
+    </div>
+  </body>
+</html>
