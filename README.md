@@ -49,8 +49,11 @@ Responsive web design
 Basic state management in vanilla JavaScript
 
 🛠️ Tech Stack
-HTML5
-CSS3 (Flexbox, Grid, Animations)
+
+HTML
+
+CSS (Flexbox, Grid, Animations)
+
 JavaScript (Vanilla)
 
 🧩 Project Motivation
@@ -69,7 +72,8 @@ How to build interactive UI components without frameworks
 How to implement filtering, sorting, and search logic
 How DOM updates impact performance and structure
 How to design user-friendly interfaces for real-world use cases
-🖼️ Preview
+
+🖼️ Preview Image of the Menu Page
 
 <img  alt="Screenshot of working website" src="https://github.com/myatthitkoko/my-website/blob/root/projects/blogs/kura-web-preview.png?raw=true">
 
