@@ -5,8 +5,10 @@ A dynamic, data-driven restaurant menu web application inspired by the operation
 This project was originally built as part of a technical assessment for Snap Engineering Academy Summer 2026 and later expanded into a personal portfolio piece demonstrating frontend development, data manipulation, and UI design skills.
 
 🌐 Live Links
-🔗 Live Project: https://myatthitkoko.github.io/beyondProject/
-💻 GitHub Repository: https://github.com/myatthitkoko/beyondProject/
+🔗 Live Project: https://myatthitkoko.github.io/beyondProject/ 
+
+💻 GitHub Repository: https://github.com/myatthitkoko/beyondProject/ 
+
 📝 Project Blog: https://myatthitkoko.com/projects/blogs/SEA2026.html
 
 📌 Features
@@ -33,16 +35,24 @@ Optimized for desktop and mobile viewing
 This project demonstrates core frontend and programming concepts including:
 
 JavaScript arrays & objects
+
 DOM manipulation
+
 Event-driven programming
+
 Data filtering & sorting algorithms
+
 Dynamic UI rendering
+
 Responsive web design
+
 Basic state management in vanilla JavaScript
+
 🛠️ Tech Stack
 HTML5
 CSS3 (Flexbox, Grid, Animations)
 JavaScript (Vanilla)
+
 🧩 Project Motivation
 
 This project was inspired by my experience working in a technology-driven restaurant environment at Kura Sushi. While interacting with guests and assisting them with digital ordering systems, I noticed the need for a faster, more intuitive way to explore menu items and allergen information.
@@ -67,5 +77,7 @@ Myat Thit Ko Ko
 Computer Science Student | Los Angeles | IT & Software Development Enthusiast
 
 Portfolio: https://myatthitkoko.com/
+
 GitHub: https://github.com/myatthitkoko
+
 Blog: https://myatthitkoko.com/projects/blogs/SEA2026.html
