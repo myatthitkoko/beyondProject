@@ -518,6 +518,7 @@ function sortPrice(order) {
 
 function searchCard() {
   document.getElementById("all").checked = true; //to indicate searching for all categories
+  backToTop();
 
   const cardContainer = document.getElementById("menu-container");
   cardContainer.innerHTML = "";
@@ -604,6 +605,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const radioInput = document.querySelectorAll('input[name="menu"]');
   radioInput.forEach(radio => {
     radio.addEventListener('change', showCardsDetails);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const startSearch = document.querySelectorAll('input[type="text"]');
+  startSearch.forEach(input => {
+    input.addEventListener('input', searchCard);
   });
 });
 
