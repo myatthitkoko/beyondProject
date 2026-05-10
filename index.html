@@ -18,7 +18,6 @@
           <div class="search">
             <h1>Looking for an item?</h1>
             <input type="text" id="search" name="search" spellcheck="true" placeholder="Search by name, price, or ingredients here">
-            <button type="submit" onclick="searchCard()">GO</button>
           </div>
           <div class="sorting">
             <span>
@@ -37,6 +36,7 @@
               <input type="checkbox" id="sortLowPrice" name="checkboxSort" value="sortLowPrice">
               <label for="sortLowPrice">Sort by Lowest Price</label>
             </span>
+	    <br>
             <span>
               <input type="checkbox" id="dairy" name="allergen" value="allergen">
               <label for="dairy">Exclude Dairy</label>
@@ -64,17 +64,17 @@
       <div class="banner">
         <section id="menu-selection">
             <input type="radio" id="all" name="menu" value="all" checked>
-            <label for="all">All</label>
+            <label for="all" onclick="backToTop()">All</label>
             <input type="radio" id="nigiri" name="menu" value="nigiri">
-            <label for="nigiri">Nigiri</label>
+            <label for="nigiri" onclick="backToTop()">Nigiri</label>
             <input type="radio" id="rolls" name="menu" value="rolls">
-            <label for="rolls">Rolls</label>
+            <label for="rolls" onclick="backToTop()">Rolls</label>
             <input type="radio" id="sides" name="menu" value="sides">
-            <label for="sides">Sides</label>
+            <label for="sides" onclick="backToTop()">Sides</label>
             <input type="radio" id="ramen" name="menu" value="ramen">
-            <label for="ramen">Ramen</label>
+            <label for="ramen" onclick="backToTop()">Ramen</label>
             <input type="radio" id="desserts" name="menu" value="desserts">
-            <label for="desserts">Desserts</label>
+            <label for="desserts" onclick="backToTop()">Desserts</label>
         </section>
       </div>
       <section id="menu-section">
