@@ -4,6 +4,8 @@ A dynamic, data-driven restaurant menu web application inspired by the operation
 
 This project was originally built as part of a technical assessment for Snap Engineering Academy Summer 2026 and later expanded into a personal portfolio piece demonstrating frontend development, data manipulation, and UI design skills.
 
+This repository is a further development based on a prior project assessment. To view commit history for the original project submission, please go to this repository: https://github.com/myatthitkoko/SEA2026-mtkk
+
 🌐 Live Links
 🔗 Live Project: https://myatthitkoko.github.io/beyondProject/ 
 
